@@ -1,0 +1,17 @@
+.menu__item {
+    list-style: none;
+    text-align: center;
+    width: 100px;
+}
+
+.menu__item:hover{
+    background-color: rgb(11, 59, 11);
+}
+
+.menu__item:hover>.menu__link{
+    color: #f9f9f9;
+}
+
+.menu__item:last-child .menu__link {
+    margin-right: 0;
+}
