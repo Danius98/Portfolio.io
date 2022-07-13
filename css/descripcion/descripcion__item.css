@@ -1,0 +1,7 @@
+.descripcion__item{
+    font-size: 20px;
+}
+
+.descripcion__item:first-child{
+    margin-right: 3rem;
+}
