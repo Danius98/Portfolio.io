@@ -1,0 +1,5 @@
+.formacion__academica{
+    display: flex;
+    margin: 2rem;
+    justify-content: space-between;
+}

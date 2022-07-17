@@ -1,6 +1,6 @@
-.skills__cards{
+.hobbies__cards{
     display: flex;
     margin: 2rem;
     flex-wrap: wrap;
-    gap: 7rem;
+    gap: 6rem;
 }
