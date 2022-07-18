@@ -1,0 +1,6 @@
+.proyectos{
+    display: flex;
+    margin: 2rem;
+    justify-content: space-between;
+    flex-direction: column;
+}

@@ -1,0 +1,14 @@
+.proyectos__repositorio, .proyectos__pagina{
+    width: 20%;
+    height: 40px;
+    font-size: 25px;
+    padding: 4px;
+    align-items: center;
+    background: rgb(116, 30, 187);
+    color: #fff;
+    border: none;
+}
+
+.proyectos__proyecto:nth-child(3) .proyectos__repositorio, .proyectos__proyecto:nth-child(3) .proyectos__pagina{
+    background: gray
+}
