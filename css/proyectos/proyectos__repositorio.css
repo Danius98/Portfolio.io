@@ -6,9 +6,23 @@
     align-items: center;
     background: rgb(116, 30, 187);
     color: #fff;
+    opacity: 0.75;
     border: none;
 }
 
-.proyectos__proyecto:nth-child(3) .proyectos__repositorio, .proyectos__proyecto:nth-child(3) .proyectos__pagina{
+.proyectos__proyecto:nth-child(3) .proyectos__repositorio, 
+.proyectos__proyecto:nth-child(3) .proyectos__pagina{
     background: gray
 }
+
+.proyectos__repositorio:hover, 
+.proyectos__pagina:hover,
+.proyectos__proyecto:nth-child(3):hover .proyectos__repositorio:hover, 
+.proyectos__proyecto:nth-child(3):hover .proyectos__pagina:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+
+
