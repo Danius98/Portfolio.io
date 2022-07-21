@@ -54,13 +54,14 @@
     <link rel="stylesheet" href="css/contacto/input">
     <link rel="stylesheet" href="css/contacto/contacto__titulo.css">
     <link rel="stylesheet" href="css/contacto/contactForm.css">
-    <link rel="stylesheet" href="css/contacto/contactoForm__titulo.css">
-    <link rel="stylesheet" href="css/contacto/contactoForm__group.css">
-    <link rel="stylesheet" href="css/contacto/contactoForm__name.css">
-    <link rel="stylesheet" href="css/contacto/contactoForm__email.css">
-    <link rel="stylesheet" href="css/contacto/contactoForm__phone.css">
-    <link rel="stylesheet" href="css/contacto/contactoForm__message.css">
-    <link rel="stylesheet" href="css/contacto/contactoForm__submit.css">
+    <link rel="stylesheet" href="css/contacto/contactForm__titulo.css">
+    <link rel="stylesheet" href="css/contacto/contactForm__group.css">
+    <link rel="stylesheet" href="css/contacto/contactForm__inputs.css">
+    <link rel="stylesheet" href="css/contacto/contactForm__input.css">
+    <link rel="stylesheet" href="css/contacto/contactForm__label.css">
+    <link rel="stylesheet" href="css/contacto/contactForm__bar.css">
+    <link rel="stylesheet" href="css/contacto/contactForm__message.css">
+    <link rel="stylesheet" href="css/contacto/contactForm__submit.css">
     <title>Mi portafolio</title>
 </head>
 <body>
@@ -217,22 +218,26 @@
             <h2 class="contactForm__titulo">¡Contactame para trabajar juntos!</h2>
             <div class="contactForm__group">
                 <div class="contactForm__inputs">
-                    <input type="text" class="contactForm__name input" placeholder=" ">
+                    <input type="text" class="contactForm__input" placeholder=" ">
                     <label class="contactForm__label">Nombre:</label>
-                    <span class="contactForm__label"></span>
+                    <span class="contactForm__bar"></span>
                 </div>
-                <div class="contactForm__input">
-                    <input type="email" class="contactForm__email inout" placeholder="Correo:">
+                <div class="contactForm__inputs">
+                    <input type="email" class="contactForm__input" placeholder=" ">
+                    <label class="contactForm__label">Correo:</label>
+                    <span class="contactForm__bar"></span>
                 </div>
-                <div class="contactForm__input">
-                    <input type="phone" class="contactForm__phone input" placeholder="Telefono:">
+                <div class="contactForm__inputs">
+                    <input type="phone" class="contactForm__input" placeholder=" ">
+                    <label class="contactForm__label">Telefono:</label>
+                    <span class="contactForm__bar"></span>
                 </div>
-                <div class="contactForm__input">
-                    <textarea class="contactForm__message input" placeholder="Mensaje:"></textarea>
+                <div class="contactForm__inputs">
+                    <textarea type="message" class="contactForm__input message" placeholder=" "></textarea>
+                    <label class="contactForm__label">Mensaje:</label>
+                    <span class="contactForm__bar"></span>
                 </div>
-                <div class="contactForm__input">
-                    <input type="text" class="contactForm__submit input">
-                </div>
+                    <input type="submit" value="Enviar" class="contactForm__submit">
             </div>
         </form>
     </section>

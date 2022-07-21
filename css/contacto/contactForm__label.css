@@ -1,0 +1,9 @@
+.contactForm__label{
+    position: absolute;
+    color: #49455467;
+    font-size: 1rem;
+    top: 10px;
+    left: 5px;
+    pointer-events: none;
+    transition: .5s transform, color .3s;
+}

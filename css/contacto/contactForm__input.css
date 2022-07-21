@@ -1,0 +1,35 @@
+.contactForm__input{
+    position: relative;
+    display: block;
+    width: 100%;
+    background: none;
+    color: #c6c6c6;
+    outline: none;
+    padding: 10px 10px 5px 5px;
+    border: none;
+    border-bottom: 1px solid #49454567;
+}
+
+.message{
+    position: relative;
+    display: block;
+    max-width: 573px;
+    min-width: 573px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.contactForm__input:focus{
+    color: rgb(94 93 93);
+}
+
+.contactForm__input:focus + .contactForm__label,
+.contactForm__input:not(:placeholder-shown) + .contactForm__label{
+    color: #2196F3;
+    transform: scale(.7) translateY(-25px);
+    transform-origin: top left;
+}
+
+.contactForm__input:focus ~ .contactForm__bar{
+    transform: scale(1);
+}

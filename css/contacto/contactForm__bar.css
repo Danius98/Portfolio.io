@@ -1,0 +1,11 @@
+.contactForm__bar{
+    position: absolute;
+    border-bottom: 1px solid #2196F3;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: scale(0);
+    transition: .3s transform;
+    transform-origin: left bottom;
+}

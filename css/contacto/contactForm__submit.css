@@ -1,0 +1,19 @@
+.contactForm__submit{
+    background: #42679b;
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    margin-top: 0.8rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+
+.contactForm__submit:hover{
+    background: rgb(242, 240, 248);
+    color: #42679b;
+    cursor: pointer;
+    border: 1px #42679b solid;
+}
