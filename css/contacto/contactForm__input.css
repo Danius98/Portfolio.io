@@ -13,10 +13,10 @@
 .message{
     position: relative;
     display: block;
-    max-width: 573px;
-    min-width: 573px;
     min-height: 100px;
     max-height: 100px;
+    min-width: 400px;
+    max-width: 400px;
 }
 
 .contactForm__input:focus{

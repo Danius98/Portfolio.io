@@ -7,3 +7,15 @@
     padding-right: 2rem;
     line-height: 70px;
 }
+
+@media screen and (max-width: 1028px){
+    .header{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 970px){
+    .header{
+        padding: 0;
+    }
+}

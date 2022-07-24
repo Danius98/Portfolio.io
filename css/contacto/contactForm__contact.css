@@ -1,0 +1,6 @@
+.contactForm__contact{
+    margin-top: 40px;
+    display: grid;
+    gap: 1rem;
+    width: 60%;
+}

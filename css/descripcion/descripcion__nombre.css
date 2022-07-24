@@ -2,3 +2,22 @@
     font-size: 52px;
     line-height: 1.25;
 }
+
+@media screen and (max-width: 817px){
+    .descripcion__nombre{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .descripcion__nombre{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .descripcion__nombre{
+        font-size: 25px;
+        margin: 1rem auto;
+    }
+}

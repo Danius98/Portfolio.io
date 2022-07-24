@@ -56,19 +56,21 @@
     <link rel="stylesheet" href="css/contacto/contactForm.css">
     <link rel="stylesheet" href="css/contacto/contactForm__titulo.css">
     <link rel="stylesheet" href="css/contacto/contactForm__group.css">
+    <link rel="stylesheet" href="css/contacto/contactForm__contact.css">
     <link rel="stylesheet" href="css/contacto/contactForm__inputs.css">
     <link rel="stylesheet" href="css/contacto/contactForm__input.css">
     <link rel="stylesheet" href="css/contacto/contactForm__label.css">
     <link rel="stylesheet" href="css/contacto/contactForm__bar.css">
     <link rel="stylesheet" href="css/contacto/contactForm__message.css">
     <link rel="stylesheet" href="css/contacto/contactForm__submit.css">
+    <link rel="stylesheet" href="css/contacto/contactForm__svg.css">
     <title>Mi portafolio</title>
 </head>
 <body>
     <header class="header">
         <div class="nombre">
             <img class="logo" src="img/alura.jpg" alt="logo alura">
-            <h2>Luis Daniel Arciniegas Barco</h2>
+            <h2 class="name">Luis Daniel Arciniegas Barco</h2>
         </div>
         <nav class="menu">
             <ul class="menu__lista">
@@ -217,27 +219,30 @@
         <form class="contactForm">
             <h2 class="contactForm__titulo">¡Contactame para trabajar juntos!</h2>
             <div class="contactForm__group">
-                <div class="contactForm__inputs">
-                    <input type="text" class="contactForm__input" placeholder=" ">
-                    <label class="contactForm__label">Nombre:</label>
-                    <span class="contactForm__bar"></span>
+                <div class="contactForm__contact">
+                    <div class="contactForm__inputs">
+                        <input type="text" class="contactForm__input" placeholder=" ">
+                        <label class="contactForm__label">Nombre:</label>
+                        <span class="contactForm__bar"></span>
+                    </div>
+                    <div class="contactForm__inputs">
+                        <input type="email" class="contactForm__input" placeholder=" ">
+                        <label class="contactForm__label">Correo:</label>
+                        <span class="contactForm__bar"></span>
+                    </div>
+                    <div class="contactForm__inputs">
+                        <input type="phone" class="contactForm__input" placeholder=" ">
+                        <label class="contactForm__label">Telefono:</label>
+                        <span class="contactForm__bar"></span>
+                    </div>
+                    <div class="contactForm__inputs">
+                        <textarea type="message" class="contactForm__input message" placeholder=" "></textarea>
+                        <label class="contactForm__label">Mensaje:</label>
+                        <span class="contactForm__bar"></span>
+                    </div>
+                        <input type="submit" value="Enviar" class="contactForm__submit">
                 </div>
-                <div class="contactForm__inputs">
-                    <input type="email" class="contactForm__input" placeholder=" ">
-                    <label class="contactForm__label">Correo:</label>
-                    <span class="contactForm__bar"></span>
-                </div>
-                <div class="contactForm__inputs">
-                    <input type="phone" class="contactForm__input" placeholder=" ">
-                    <label class="contactForm__label">Telefono:</label>
-                    <span class="contactForm__bar"></span>
-                </div>
-                <div class="contactForm__inputs">
-                    <textarea type="message" class="contactForm__input message" placeholder=" "></textarea>
-                    <label class="contactForm__label">Mensaje:</label>
-                    <span class="contactForm__bar"></span>
-                </div>
-                    <input type="submit" value="Enviar" class="contactForm__submit">
+                <img  class="contactForm__svg" src="img/contacto/contacto.jpg" alt="contacto">
             </div>
         </form>
     </section>
